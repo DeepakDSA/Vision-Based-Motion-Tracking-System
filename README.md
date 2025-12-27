@@ -12,17 +12,7 @@ Prepare for deployment on NVIDIA Jetson platforms
 
 The system uses camera-based tracking and currently supports ArUco marker detection, with planned extension to Digital Image Correlation (DIC) methods.
 
-Camera (USB)
-   ↓
-GStreamer / OpenCV Capture
-   ↓
-Frame Queue (Multithreaded)
-   ↓
-OpenCV Processing
-   ├── ArUco Marker Detection
-   ├── ROI-based Motion Tracking
-   ↓
-Console / Data Output
+
 
 
 ✨ Current Features
